@@ -41,7 +41,7 @@ setup(
     version='1.0',
     author="Jacob Magnusson",
     author_email="m@jacobian.se",
-    url='https://github.com/jmagnusson/Flask-Resize',
+    url='https://github.com/jmagnusson/Flask-Sendwithus',
     platforms='any',
     license="BSD",
     description="Forwards-compatible Flask extension to interact with the sendwithus API",
