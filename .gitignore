@@ -1,0 +1,8 @@
+*.egg-info/
+*.pyc
+*.sublime-*
+.cache/
+.DS_Store
+.tox/
+.venv
+__pycache__/
