@@ -4,6 +4,7 @@
 .cache/
 .coverage
 .DS_Store
+.dist/
 .tox/
 .venv
 __pycache__/
