@@ -1,1 +1,3 @@
-# Uses default configuration
+test:
+  post:
+    codecov

@@ -2,7 +2,9 @@
 *.pyc
 *.sublime-*
 .cache/
+.coverage
 .DS_Store
 .tox/
 .venv
 __pycache__/
+coverage.xml
