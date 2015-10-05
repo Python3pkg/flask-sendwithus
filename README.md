@@ -14,8 +14,6 @@
 
 Forwards-compatible Flask extension to interact with the [sendwithus](https://www.sendwithus.com/) API.
 
-Created by [Jacob Magnusson](https://twitter.com/jacobsvante_).
-
 ## Installation
 
     pip install Flask-Sendwithus
