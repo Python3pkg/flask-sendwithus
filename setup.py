@@ -38,7 +38,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Sendwithus',
-    version='1.0',
+    version='1.0.1',
     author="Jacob Magnusson",
     author_email="m@jacobian.se",
     url='https://github.com/jmagnusson/Flask-Sendwithus',
@@ -48,6 +48,14 @@ setup(
     long_description=__doc__,
     packages=['flask_sendwithus'],
     install_requires=['flask>=0.8', 'sendwithus'],
+    extras_require=dict(
+        test=[
+            'coverage',
+            'flake8',
+            'isort',
+            'pytest',
+        ],
+    ),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
@@ -56,8 +64,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ]
 )
