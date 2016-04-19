@@ -14,8 +14,6 @@
 
 Forwards-compatible Flask extension to interact with the [sendwithus](https://www.sendwithus.com/) API.
 
-Created by [Jacob Magnusson](https://twitter.com/jacobsvante_).
-
 ## Installation
 
     pip install Flask-Sendwithus
@@ -37,7 +35,6 @@ Uses the standard extension pattern. Example:
     recipient={'address': 'us@sendwithus.com'})
 >>> print(r.status_code)
 200
-)
 ```
 
 See [the official python client's documentation](https://github.com/sendwithus/sendwithus_python) for further info on what methods are available. All methods found on the `sendwithus.api` instance is proxied on the Flask-Sendwithus's instance.
