@@ -1,4 +1,0 @@
-test:
-  post:
-    - pip install codecov
-    - codecov

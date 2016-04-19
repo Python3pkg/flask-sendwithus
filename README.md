@@ -1,6 +1,6 @@
 # Flask-Sendwithus
 
-[![Circle CI](https://circleci.com/gh/jmagnusson/flask-sendwithus.svg?style=shield&circle-token=56ac6919ffb79a741dcfab873f26d281c17ae23d)](https://circleci.com/gh/jmagnusson/flask-sendwithus/tree/master)
+[![Travis CI build status (Linux)](https://travis-ci.org/jmagnusson/flask-sendwithus.svg?branch=master)](https://travis-ci.org/jmagnusson/flask-sendwithus)
 [![PyPI version](https://img.shields.io/pypi/v/Flask-Sendwithus.svg)](https://pypi.python.org/pypi/Flask-Sendwithus/)
 [![Downloads from PyPI per month](https://img.shields.io/pypi/dm/Flask-Sendwithus.svg)](https://pypi.python.org/pypi/Flask-Sendwithus/)
 [![License](https://img.shields.io/pypi/l/Flask-Sendwithus.svg)](https://pypi.python.org/pypi/Flask-Sendwithus/)
