@@ -38,7 +38,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Sendwithus',
-    version='1.0.1',
+    version='1.0.2',
     author="Jacob Magnusson",
     author_email="m@jacobian.se",
     url='https://github.com/jmagnusson/Flask-Sendwithus',
