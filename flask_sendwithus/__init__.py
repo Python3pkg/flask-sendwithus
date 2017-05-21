@@ -4,7 +4,7 @@ from flask import current_app, _app_ctx_stack
 try:
     from urllib.parse import urljoin
 except ImportError:
-    from urlparse import urljoin
+    from urllib.parse import urljoin
 
 
 class Sendwithus:
